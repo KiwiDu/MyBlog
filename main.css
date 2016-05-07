@@ -1,0 +1,55 @@
+td.element {
+    /*font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;*/
+    font-family: "微软雅黑";
+    background-color: #555555;
+    color: #fff;
+    /*border: 0px;*/
+    /*border-collapse: collapse;*/
+    padding: 1.2em;
+    /*width: 56px;v
+    height: 76px;*/
+}
+
+
+/*
+table {
+    border-spacing: 0px;
+}*/
+
+
+/*div#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*/
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+td.element {
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /* align-items: center;*/
+    /* flex-flow: column;*/
+}
+
+td.element span {
+    font-size: 0.8vmin;
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0px;
+    font-family: "微软雅黑";
+}
