@@ -30,9 +30,12 @@ body {
 td.element span {
     font-size: 100%;
     padding-top: 0.8em;
-    padding-bottom: 0.8em;
     display: block;
     white-space: nowrap;
+}
+
+td.element span+span{
+    padding-bottom: 0.8em;
 }
 
 h1,
