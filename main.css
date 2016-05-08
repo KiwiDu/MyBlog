@@ -1,51 +1,38 @@
-body{
-    margin: 0;
+div#main{
+    width: 90%;
 }
 
-
 td.element {
-    /*font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;*/
     font-family: "微软雅黑";
     background-color: #555555;
     color: #fff;
-    /*border: 0px;*/
-    /*border-collapse: collapse;*/
-    padding: 1.2em;
-    /*width: 56px;v
-    height: 76px;*/
+    /*padding: 1.2em;*/
+    width: 5.5555%;
+    height: auto;
+    min-height: 50px;
 }
 
-
-/*
 table {
     border-spacing: 0px;
-}*/
-
-
-/*div#main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
+    text-align:center;
+    vertical-align:middle;
 }
-*/
 
 body {
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: column;
 }
 
-td.element {
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /* align-items: center;*/
-    /* flex-flow: column;*/
-}
-
 td.element span {
-    font-size: 0.8vmin;
+    font-size: 100%;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
     display: block;
+    white-space: nowrap;
 }
 
 h1,
