@@ -21,6 +21,9 @@ table {
 
 body {
     margin: 0;
+}
+
+body,#header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,15 +41,4 @@ td.element span {
 td.element span+span{
     padding-top: 0em;
     padding-bottom: 0.8em;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    margin: 0px;
-    font-family: "微软雅黑";
 }

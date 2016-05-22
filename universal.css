@@ -1,0 +1,28 @@
+blockquote{
+    display: block;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 0.5em;
+    background-color: #03A9F4;
+    border-left: 0.5em;
+    border-left-color: #0288D1;
+    border-left-style: solid;
+    font-family: "微软雅黑";
+    color: #eee;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0px;
+    font-family: "微软雅黑";
+}
+blockquote a{
+    color: #fff;
+}
