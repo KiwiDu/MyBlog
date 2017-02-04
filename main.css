@@ -30,7 +30,11 @@ body,#header {
     flex-flow: column;
 }
 
-td.element span {
+td.element a{
+    color:#fff
+}
+
+td.element a span {
     font-size: 100%;
     padding-top: 0.8em;
     padding-bottom: 0.8em;
@@ -38,7 +42,7 @@ td.element span {
     white-space: nowrap;
 }
 
-td.element span+span{
+td.element a span+span{
     padding-top: 0em;
     padding-bottom: 0.8em;
 }
