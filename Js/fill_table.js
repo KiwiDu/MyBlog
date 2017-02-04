@@ -39,7 +39,10 @@ function fillTable() {
                     tcell.style.backgroundColor = "transparent";
                     continue;
                 } else {
-                    tcell.innerHTML = "<span>" + elementlist[k].name + "</span>" + "<span>" + elementlist[k].chname + "</span>";
+                    tcell.innerHTML = "<a href='" + "http://baike.baidu.com/item/" + elementlist[k].name + "'>"+
+                        "<span>" + elementlist[k].name + "</span>" +
+                        "<span>" + elementlist[k].chname + "</span>" +
+                        "</a>";
                     switch (location[cell]) {
                         case 'n'://non-metal
                             tcell.style.backgroundColor = "#2196F3";
