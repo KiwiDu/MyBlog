@@ -39,7 +39,7 @@ function fillTable() {
                     tcell.style.backgroundColor = "transparent";
                     continue;
                 } else {
-                    tcell.innerHTML = "<a href='" + "http://baike.baidu.com/item/" + elementlist[k].name + "'>"+
+                    tcell.innerHTML = "<a href='" + "http://baike.baidu.com/item/" + elementlist[k].chname + "'>"+
                         "<span>" + elementlist[k].name + "</span>" +
                         "<span>" + elementlist[k].chname + "</span>" +
                         "</a>";
